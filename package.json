@@ -1,7 +1,7 @@
 {
-  "name": "pmviz",
+  "name": "causalaxies",
   "version": "1.0.0",
-  "description": "Visualization of common package managers",
+  "description": "Visualization of cause/influence relationships over time",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,25 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anvaka/pm.git"
+    "url": "https://github.com/causegraph/causalaxies.git"
   },
   "keywords": [
-    "ngraph",
     "visualization",
-    "package",
-    "managers",
-    "npm",
-    "bower",
-    "cpan",
-    "composer",
-    "go"
+    "influences",
+    "wikipedia",
+    "dbpedia",
+    "temporal"
   ],
-  "author": "Andrei Kashcha",
+  "author": "Joel Cox",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anvaka/pm/issues"
+    "url": "https://github.com/causegraph/causalaxies/issues"
   },
-  "homepage": "https://github.com/anvaka/pm",
+  "homepage": "https://github.com/causegraph/causalaxies",
   "devDependencies": {
     "express": "^4.12.3",
     "ngraph.generators": "0.0.15",
