@@ -18,7 +18,7 @@ of [causalaxies-data](https://github.com/causegraph/causalaxies-data).
   <tbody>
     <tr>
       <td align="center">
-        <h3>Bower</h3>
+        <h3>DBpedia</h3>
         <a href="http://causegraph.github.io/causalaxies/#/galaxy/dbpedia?l=1">
           <img src="https://raw.githubusercontent.com/wiki/anvaka/pm/images/bower_fly_first.png">
         </a><br />
