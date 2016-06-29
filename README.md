@@ -20,7 +20,7 @@ of [causalaxies-data](https://github.com/causegraph/causalaxies-data).
       <td align="center">
         <h3>DBpedia</h3>
         <a href="http://causegraph.github.io/causalaxies/#/galaxy/dbpedia?l=1">
-          <img src="https://raw.githubusercontent.com/wiki/anvaka/pm/images/bower_fly_first.png">
+          <img src="https://raw.githubusercontent.com/causegraph/causalaxies/master/images/dbpedia_300px.png">
         </a><br />
         <!-- TODO put processing scripts on github -->
         <!-- <a href="https://github.com/causegraph/REPONAME">indexer</a> | -->
