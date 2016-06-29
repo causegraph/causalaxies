@@ -1,24 +1,26 @@
-# Software Galaxies Documentation
+# Causalaxies Documentation
 
-[Software Galaxies](https://anvaka.github.io/pm/#/) visualizes dependencies among most popular package managers.
-Every star in this visualization represents a package.
+[Causalaxies](https://causegraph.github.io/causalaxies/) visualizes relationships between things over time.
+Every star (node) in this visualization represents an entity, generally a person at present.
+
+This project is based on [Software Galaxies](https://anvaka.github.io/pm/#/).
 
 ## What do I see here?
 
-![Go packages](https://raw.githubusercontent.com/anvaka/pm/master/images/go_image.png)
+![Causalaxies from a distance](https://raw.githubusercontent.com/causegraph/causalaxies/master/images/cg_image.png)
 
-Every dot here is a package. Position of a package is determined by
-force based graph layout algorithm and usually clusters together packages
-that depend on each other.
+Every dot here represents a person, a programming language, or some other historical entity.
+The position along the horizontal axis is determined by date of birth or creation (where available).
+The position along the other axes is determined by a force-based layout algorithm.
 
-Some packages are connected by lines. It means one package depend on another.
-Image above shows only very close connections. We can also see all connections,
-but the image becomes obscure by amount of connections.
+Some entities are connected by lines, indicating that one influenced another.
+
+Note: The rest of this page refers to the original visualization, but this one works in mostly the same way.
 
 ![Go packages with edges](https://raw.githubusercontent.com/anvaka/pm/master/images/go_image_all_links.png)
 
 The size of the dots represents total number of dependents. The bigger the star - 
-the more packages are using it.
+the more entities are using it.
 
 ## Navigating in the space
 
