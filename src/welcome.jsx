@@ -5,11 +5,11 @@ export default class WelcomePage extends React.Component {
   render() {
     return (
       <div className='container'>
-        <h1>Welcome to the Code Galaxies, Commander</h1>
-        <h2>Choose your destination:</h2>
+        <h1>Welcome to CauseGraph!</h1>
+        <h2>Choose a graph from the options below:</h2>
         <div className='media-list'>
           <Destination description='Influence relationships from Wikipedia'
-                      href='#/galaxy/bower?l=1'
+                      href='#/galaxy/dbpedia?l=1'
                       media='bower_fly_first.png'
                       name='DBpedia Influences'/>
         </div>
