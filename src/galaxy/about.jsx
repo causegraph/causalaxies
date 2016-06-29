@@ -6,7 +6,7 @@ function about() {
   <div  className='label about'>
      <a className='reset-color'
         target='_blank'
-        href="https://github.com/anvaka/pm/tree/master/about#software-galaxies-documentation">About...</a>
+        href="https://github.com/causegraph/causalaxies/tree/master/about#causalaxies-documentation">About...</a>
   </div>
   );
 }
