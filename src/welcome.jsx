@@ -10,7 +10,7 @@ export default class WelcomePage extends React.Component {
         <div className='media-list'>
           <Destination description='Influence relationships from Wikipedia'
                       href='#/galaxy/dbpedia?l=1'
-                      media='bower_fly_first.png'
+                      media='dbpedia_300px.png'
                       name='DBpedia Influences'/>
         </div>
       </div>

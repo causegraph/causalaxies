@@ -1,6 +1,6 @@
 import React from "react";
 
-const prefix = 'https://raw.githubusercontent.com/wiki/anvaka/pm/images/';
+const prefix = 'https://raw.githubusercontent.com/causegraph/causalaxies/master/images/';
 
 export default class Destination extends React.Component {
   setHoverOn() {
