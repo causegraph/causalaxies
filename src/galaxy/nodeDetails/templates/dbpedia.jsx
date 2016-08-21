@@ -1,12 +1,12 @@
 import React from 'react';
 import commonPackageTemplate from './commonPackageTempalte.jsx';
 
-export default require('maco').template(bower, React);
+export default require('maco').template(dbpedia, React);
 
-function bower(props) {
+function dbpedia(props) {
   var model = props.model;
 
-  var link = 'http://bower.io/search/?q=' + encodeURIComponent(model.name);
+  var link = 'https://en.wikipedia.org/wiki/' + encodeURIComponent(model.name);
   var linkText = model.name;
 
   return commonPackageTemplate(model, link, linkText);
