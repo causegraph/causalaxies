@@ -8,7 +8,7 @@ export default class WelcomePage extends React.Component {
         <h1>Welcome to CauseGraph!</h1>
         <h2>Choose a graph from the options below:</h2>
         <div className='media-list'>
-          <Destination description='Influence relationships from Wikidata’
+          <Destination description='Influence relationships from Wikidata'
                       href='#/galaxy/wikidata?l=1'
                       media=‘wikidata_300px.png'
                       name=‘Wikidata Influences'/>
