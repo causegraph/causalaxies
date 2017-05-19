@@ -39,15 +39,25 @@ function contentTemplateSelector(type) {
   }
 }
 
+function connectionClassSwitch(ccn) {
+    switch(ccn){
+        case 'in':
+            return 'window-indegree';
+            break;
+        case 'out':
+            return 'window-outdgree';
+            break;
+        default:
+            return '';
+    }
+}
+
 function registerDataTemplates() {
   resource.add('DegreeWindowViewModel', maco.template(ctx => {
     if (ctx.id === undefined) return null;
     return (
       <h4 className='window-title'>
-        <span className='node-name node-focus' id={ctx.id}>{ctx.nodeName}</span>
-        <span> has </span>
-        <strong> {ctx.degreeNumber} </strong>
-        <span className={ctx.connectionClassName === 'in' ? 'window-indegree' : 'window-outdgree'}>
+        <span className={connectionClassSwitch(ctx.connectionClassName)}>
           {ctx.degreeKindName}
         </span>
       </h4>
