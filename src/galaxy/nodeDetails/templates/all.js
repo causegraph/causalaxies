@@ -4,11 +4,13 @@
  */
 import dbpedia from './dbpedia.jsx';
 import wikidata from './wikidata.jsx'
+import wikidatanotime from './wikidatanotime.jsx'
 
 import defaultTempalte from './default.jsx';
 
 export default {
     dbpedia: dbpedia,
     wikidata: wikidata,
+    wikidatanotime: wikidatanotime,
     default: defaultTempalte
 }
