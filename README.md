@@ -53,4 +53,4 @@ The README in the [original repo](https://github.com/anvaka/pm) has a lot of inf
 
 # Feedback
 
-Feedback is welcome!  Please create a new [issue](https://github.com/causegraph/causalaxies/issues) or send email to `info@causegraph.org`.
+Feedback is welcome!  Please create a new [issue](https://github.com/causegraph/causalaxies/issues).
